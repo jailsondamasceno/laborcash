@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:id="@+id/budgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/created"
+        android:layout_below="@+id/created"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:elevation="5dp"
+        android:gravity="left"
+        android:lines="1"
+        android:minHeight="20dp"
+        android:shadowColor="#000000"
+        android:text=" Orçamento:"
+        android:textColor="@color/blue_500"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:elevation="5dp"
+        android:shadowColor="#000000"
+        android:minHeight="20dp"
+        android:text=" "
+        android:textStyle="bold"
+        android:lines="1"
+        android:layout_toRightOf="@+id/budgetText"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+
+        android:id="@+id/bidsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/budgetText"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:elevation="5dp"
+        android:lines="1"
+        android:minHeight="20dp"
+        android:shadowColor="#000000"
+        android:text="Proposta:"
+        android:textColor="@color/blue_500"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:id="@+id/bids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:elevation="5dp"
+        android:shadowColor="#000000"
+        android:minHeight="20dp"
+        android:text=" "
+        android:textStyle="bold"
+        android:lines="1"
+        android:layout_toRightOf="@+id/bidsText"
+        android:layout_below="@+id/budget"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <View
+        android:id="@+id/divider"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="@dimen/nav_drawer_vertical_spacing_listing_divider_bottom"
+        android:layout_marginTop="@dimen/nav_drawer_vertical_spacing_listing_divider_top"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/bids"
+        android:background="@color/blue_500"/>
+
+    <TextView
+
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:elevation="5dp"
+        android:shadowColor="#000000"
+        android:minHeight="20dp"
+        android:text="Informações sobre a oferta"
+        android:textStyle="bold"
+        android:lines="1"
+        android:textColor="@color/blue_500"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/divider"
+        />
+
+        <LinearLayout
+            android:id="@+id/layoutPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/infoText"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="2"
+                    android:text="A sua aposta"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="3"
+                    android:text="R$"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:gravity="right"
+                        android:lines="1"
+                        android:maxLength="6"
+                        android:hint=""
+                        android:id="@+id/editPrice"/>
+                </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="2"
+                    android:text="Comissão"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="3"
+                    android:text="R$"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:gravity="right"
+                        android:enabled="false"
+                        android:lines="1"
+                        android:hint=""
+                        android:id="@+id/editComis"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="2"
+                    android:text="Total"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="3"
+                    android:text="R$"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:gravity="right"
+                        android:enabled="false"
+                        android:lines="1"
+                        android:hint=""
+                        android:id="@+id/editTotal"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutPrice"
+        android:maxLength="500"
+        android:layout_margin="15dp"/>
+
+
+    <TextView
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_500"
+        android:layout_below="@+id/editMessage"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="ENVIAR MENSAGEM"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:padding="15dp"/>
+
+</RelativeLayout>
+    </ScrollView>

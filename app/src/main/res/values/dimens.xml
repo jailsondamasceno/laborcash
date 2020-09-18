@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_drawer_max_width">320dp</dimen>
+
+    <dimen name="navigation_drawer_profile_image_size">64dp</dimen>
+    <dimen name="navigation_drawer_item_height">48dp</dimen>
+    <dimen name="navigation_drawer_account_section_default_height">164dp</dimen>
+    <dimen name="navigation_drawer_account_information_height">56dp</dimen>
+    <dimen name="nav_drawer_vertical_keyline_icon_left">16dp</dimen>
+    <dimen name="nav_drawer_vertical_keyline_text_left">72dp</dimen>
+    <dimen name="nav_drawer_vertical_keyline_right">16dp</dimen>
+    <dimen name="nav_drawer_item_row_height">48dp</dimen>
+    <dimen name="nav_drawer_item_row_icon_size">24dp</dimen>
+    <dimen name="nav_drawer_vertical_spacing_listing">8dp</dimen>
+    <dimen name="nav_drawer_vertical_spacing_listing_divider_top">7dp</dimen>
+    <dimen name="nav_drawer_vertical_spacing_listing_divider_bottom">8dp</dimen>
+    <dimen name="nav_drawer_subheader_height">48dp</dimen>
+
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+
+    <dimen name="mt_toolbar_height">56dp</dimen>
+    <dimen name="mt_toolbar_padding_start">0dp</dimen>
+    <dimen name="mt_toolbar_padding_end">16dp</dimen>
+
+    <dimen name="mt_toolbar_picture_size_collapsed">42dp</dimen>
+    <dimen name="mt_toolbar_picture_size_expanded">62dp</dimen>
+
+    <dimen name="mt_toolbar_picture_margin_start">0dp</dimen>
+    <dimen name="mt_toolbar_title_margin_start">12dp</dimen>
+
+    <dimen name="mt_toolbar_content_margin_start_collapsed">56dp</dimen>
+    <dimen name="mt_toolbar_content_margin_top_collapsed">0dp</dimen>
+    <dimen name="mt_toolbar_content_margin_end_collapsed">0dp</dimen>
+    <dimen name="mt_toolbar_content_margin_bottom_collapsed">0dp</dimen>
+
+    <dimen name="mt_toolbar_content_margin_start_expanded">16dp</dimen>
+    <dimen name="mt_toolbar_content_margin_top_expanded">0dp</dimen>
+    <dimen name="mt_toolbar_content_margin_end_expanded">0dp</dimen>
+    <dimen name="mt_toolbar_content_margin_bottom_expanded">16dp</dimen>
+
+    <dimen name="divider_padding">16dp</dimen>
+    <dimen name="fab_margin">32dp</dimen>
+
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">65dp</dimen>
+
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_final_width">32dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
+    <dimen name="size_avatar_toolbar">40dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="elevation_header">4dp</dimen>
+</resources>

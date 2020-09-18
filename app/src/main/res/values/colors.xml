@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimary">#330129</color>
+    <color name="ColorPrimaryDark">#110a40</color>
+    <color name="tabsScrollColor">#ffffff</color>
+    <color name="divider">#644d4d4d</color>
+    <color name="mt_title_color">#FFFFFF</color>
+    <color name="mt_subtitle_color">#f2f2f2</color>
+    <!-- App Main Palette -->
+    <color name="primary">@color/green_500</color>
+    <color name="primaryDark">@color/green_700</color>
+    <color name="textPrimary">@color/text_white_text_icons_100</color>
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#a8e4a0</color>
+    <color name="colorBackground">#503F51B5</color>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+
+    <color name="background">#e9e3dd</color>
+    <color name="search_layover_bg">#80000000</color>
+    <!-- Text -->
+    <!-- Text -->
+    <color name="text_black_100">#000000</color>
+    <color name="text_black_text_87">#DE000000</color>
+    <color name="text_black_secondary_icon_54">#8A000000</color>
+    <color name="text_black_disable_hint_26">#42000000</color>
+    <color name="text_black_divider_12">#1F000000</color>
+
+    <color name="text_white_text_icons_100">#FFFFFF</color>
+    <color name="text_white_secondary_70">#B3FFFFFF</color>
+    <color name="text_white_disabled_hint_30">#4DFFFFFF</color>
+    <color name="text_white_divider_12">#1FFFFFFF</color>
+
+    <!-- NavigationDrawer -->
+    <color name="navigation_drawer_background">#ffffffff</color>
+    <color name="nav_drawer_item_icon_normal">@color/grey_600</color>
+    <color name="nav_drawer_item_icon_selected">@color/green_500</color>
+    <color name="nav_drawer_item_text_selected">@color/green_500</color>
+    <color name="nav_drawer_section_subheader">@color/text_black_secondary_icon_54</color>
+    <color name="nav_drawer_inset_foreground">#4000</color>
+
+    <color name="nav_drawer_row_item_unselected">@color/white</color>
+    <color name="nav_drawer_row_item_selected">@color/grey_200</color>
+    <color name="nav_drawer_row_item_pressed">@color/grey_400</color>
+
+    <!-- Green -->
+    <color name="green_500">#4caf50</color>
+
+    <color name="green_700">#388e3c</color>
+
+
+    <color name="primary_dark">#2c7096</color>
+
+    <color name="primary2">#fbc757</color>
+    <color name="primary_dark2">#e6b449</color>
+
+    <!-- Grey -->
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_600">#757575</color>
+
+    <!-- Blue -->
+    <color name="blue_500">#2196f3</color>
+
+    <!-- Amber -->
+    <color name="amber_500">#ffc107</color>
+
+    <!-- Black and White -->
+    <color name="white">#FFFFFF</color>
+    <color name="black_alpha_50">#be040303</color>
+    <color name="golden_stars">#FFC619</color>
+</resources>

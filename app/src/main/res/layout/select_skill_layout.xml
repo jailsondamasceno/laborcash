@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:layout_marginLeft = "15dp"
+        android:layout_marginRight = "15dp"
+        android:background="#ffffff"
+        android:layout_marginTop="15dp"
+        android:entries="@array/skilllist"
+        android:layout_below="@id/textSpinner">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/blue_500"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:text="Mudar"
+        android:gravity="center"
+        android:layout_below="@+id/skills"
+        android:textColor="#ffffff"
+        android:id="@+id/btnChange"/>
+
+</RelativeLayout>

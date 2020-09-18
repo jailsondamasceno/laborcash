@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:background="@color/blue_500"
+        android:gravity="center"
+        android:text="SAIR"/>
+
+    <TextView
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:background="@color/blue_500"
+        android:gravity="center"
+        android:text="REMOVER UMA CONTA"/>
+
+</LinearLayout>

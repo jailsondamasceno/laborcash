@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<EditText-->
+        <!--android:id="@+id/searchRow"-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:layout_heightPercent="10%"-->
+        <!--android:minHeight="20dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+    <!--<AutoCompleteTextView-->
+        <!--android:id="@+id/searchRow"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/searchRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:layout_heightPercent="80%"-->
+        <!--android:id="@+id/scrollLayout"-->
+        <!--android:layout_below="@id/searchRow"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ScrollView-->
+            <!--android:id="@+id/scrollFound"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fillViewport="true"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+
+
+            <!--<GridView-->
+                <!--android:id="@+id/gridFound"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+
+                <!--android:numColumns="1">-->
+
+            <!--</GridView>-->
+
+        <!--</ScrollView>-->
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollNoted"-->
+        <!--android:layout_weight="1"-->
+        <!--android:fillViewport="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+       <!--<GridView-->
+           <!--android:id="@+id/gridNoted"-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="match_parent"-->
+           <!--android:verticalSpacing="15dp"-->
+           <!--android:numColumns="auto_fit">-->
+
+       <!--</GridView>-->
+
+
+    <!--</ScrollView>-->
+
+
+    <!--</LinearLayout>-->
+    <TextView
+        android:id="@+id/btnChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchRow"
+        android:layout_marginBottom="5dp"
+        android:background="@color/blue_500"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Mudar"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

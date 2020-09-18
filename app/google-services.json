@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "320039351932",
+    "firebase_url": "https://brand-4f6cf.firebaseio.com",
+    "project_id": "brand-4f6cf",
+    "storage_bucket": "brand-4f6cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320039351932:android:fd5b45624d3bbc85",
+        "android_client_info": {
+          "package_name": "ru.laborcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320039351932-mniu1vk8jd4fpmjveguog0cdlj9tvj15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.laborcash",
+            "certificate_hash": "d4b10d60faf2be1df63e44c2cad58ed75e45c558"
+          }
+        },
+        {
+          "client_id": "320039351932-vg2esdaa8g0n7dln3pvfalno4q7m4bp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWgFlJVPkdTlfMAmFZuo2DJWUKPlGa_lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320039351932-vg2esdaa8g0n7dln3pvfalno4q7m4bp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

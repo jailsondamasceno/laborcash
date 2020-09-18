@@ -1,0 +1,1441 @@
+<resources>
+    <string name="app_name">LaborCash</string>
+    <string name="facebook_app_id">1727855824183716</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="expand_string">mostrar mais...</string>
+    <string name="collapsed_string">hide</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibWFsZXJjbyIsImEiOiJjajYyaGpiaHYxNHFzMzJsZzFtY3FtOHM0In0.HKpPIH7Vnp9D5sfTDdtGtA</string>
+    <!-- Toolbar titles -->
+
+    <string name="toolbar_title_explore">Explore</string>
+    <string name="other_activity">Outra Atividade</string>
+
+
+
+
+
+    <string name="sendPhoto">Foto</string>
+    <string name="sign_out">Sair</string>
+    <string name="select_picture_title">Selecionar Foto de</string>
+    <string name="sendPhotoGallery">Galeria de Fotos</string>
+
+    <string name="sendLocation">Enviar Localização</string>
+    <string name="send_video">Enviar Video</string>
+    <string name="send_audio">Enviar Audio</string>
+
+
+
+    <string name="panel">PAINEL DE CONTROLE</string>
+    <string name="profile">PERFIL</string>
+    <string name="profilefree">COMO FREELANCER</string>
+    <string name="profileclient">COMO EMPREGADOR</string>
+    <string name="notification">CAIXA DE ENTRADA</string>
+    <string name="messages">MENSAGEM</string>
+    <string name="newproj">CRIAR UM PROJETO</string>
+    <string name="search">PESQUISA de PROJETOS</string>
+    <string name="searchFree">PESQUISA de FREELANCERS</string>
+    <string name="myproj">MEUS PROJETOS</string>
+    <string name="myprojfree">COMO FREELANCER</string>
+    <string name="myprojclient">COMO EMPREGADOR</string>
+    <string name="configure">CONFIGURAÇÃO</string>
+
+    <string name="notselected">não selecionado</string>
+    <string name="design">DESIGN E MULTIMIDIA</string>
+    <string name="sales">MARKETING E VENDAS</string>
+    <string name="it">PROGRAMAÇÃO E TI</string>
+    <string name="constru_cao">CONSTRUÇÃO CIVIL</string>
+    <string name="audio_visual">AUDIOVISUAL</string>
+    <string name="auto_moveis">AUTOMOVEIS</string>
+    <string name="grastro_nomia">GASTRONOMIA</string>
+    <string name="escri_ta">ESCRITA E TRADUÇÃO</string>
+    <string name="projtext">projetos abertos esta semana</string>
+    <!--<string name="arquite_tura">ARQUITETURA E DESIGN</string>
+    <string name="constru_cao">CONSTRUÇÃO CIVIL</string>
+    <string name="casa_escritorio">CASA E ESCRITORIO</string>
+    <string name="auto_moveis">AUTOMOVEIS</string>
+    <string name="grastro_nomia">GASTRONOMIA</string>
+    <string name="audio_visual">AUDIOVISUAL</string>-->
+
+
+    <string-array name="withdraw">
+        <item>PayPal</item>
+        <item>Stripe</item>
+    </string-array>
+
+    <string-array name="type_project">
+        <item>POR TRABALHO FINALIZADO</item>
+        <item>POR HORAS TRABALHADAS</item>
+    </string-array>
+
+    <string-array name="price_range">
+        <item>Menos de R$ 50</item>
+        <item>R$ 50-100</item>
+        <item>R$ 50-100</item>
+        <item>R$ 100-250</item>
+        <item>R$ 250-500</item>
+        <item>R$ 500-1000</item>
+        <item>R$ 1000-3000</item>
+        <item>Acima de R$3000</item>
+    </string-array>
+
+    <string-array name="hourly_price_range">
+        <item>Nível Inicial: até R$ 15 / hr</item>
+        <item>Intermediário: R$ 15 - 35 / hr</item>
+        <item>Experiente: acima R$ 36 / hr</item>
+    </string-array>
+
+    <string-array name="duration_range">
+        <item>1 - 2 semanas</item>
+        <item>1 - 2 meses</item>
+        <item>1 - 4 meses</item>
+    </string-array>
+
+    <string-array name="skilllist">
+        <item>não selecionado </item>
+        <item>DESIGN E MULTIMIDIA </item>
+        <item>MAKETING E VENDAS</item>
+        <item>PROGRAMAÇÃO E TI</item>
+        <item>CONSTRUÇÃO CIVIL</item>
+        <item>AUDIOVISUAL</item>
+        <item>AUTOMOVEIS</item>
+        <item>GASTRONOMIA</item>
+        <item>ESCRITA E TRADUÇÃO</item>
+        <!--<item>ARQUITETURA E DESING</item>
+        <item>CASA E ESCRITÓRIO</item>
+        <item>CONTRUÇÃO CIVÍL</item>
+        <item>AUTOMÓVEIS</item>
+        <item>GASTRONOMIA</item>
+        <item>AUDIOVISUAL</item>-->
+
+
+
+
+
+
+
+    </string-array>
+
+
+    <string-array name="create_it">
+        <item>DESENVOLVIMENTO WEB</item>
+        <item>WEB DESIGN</item>
+        <item>E-COMMERCE</item>
+        <item>WORDPRESS</item>
+        <item>DESENVOLVIMENTO MOBILE </item>
+        <item>APP PARA DESKTOP</item>
+        <item>OUTROS</item>
+
+    </string-array>
+
+    <string-array name="create_design">
+        <item>LOGO DESIGN</item>
+        <item>WEB DESIGN</item>
+        <item>BANERS</item>
+        <item>ILUSTRAÇÕES</item>
+        <item>CRIAÇÃO E EDIÇÃO DE VIDEO</item>
+        <item>INFOGRAFIAS</item>
+        <item>IMAGENS PARA REDES SOCIAIS</item>
+        <item>DESING APLICATIVOS MOBILE</item>
+        <item>IMAGENS CORPORATIVAS</item>
+        <item>LANDING PAGE</item>
+        <item>OUTROS</item>
+
+    </string-array>
+
+
+    <string-array name="create_writing">
+        <item>ESCRITA DE ARTIGOS</item>
+        <item>ESCRITA PARA SITES</item>
+        <item>REVISÃO</item>
+        <item>CONTEUDO PARA REDES SOCIAIS</item>
+        <item>TRADUÇÃO</item>
+        <item>OUTROS</item>
+
+    </string-array>
+
+    <string-array name="create_sales">
+        <item>VENDAS</item>
+        <item>GESTÃO COMUNITÁRIA</item>
+        <item>PROPAGANDA NO GOOGLE, FACEBOOK</item>
+        <item>E-MAIL MARKETING</item>
+        <item>TELEVENDAS</item>
+        <item>OUTROS</item>
+
+    </string-array>
+
+    <string-array name="create_admin">
+        <item>ASSISTENTE VIRTUAL</item>
+        <item>SUPORTE AO CLIENTE</item>
+        <item>ENTRADA DE DADOS</item>
+        <item>PESQUISA DE MERCADO</item>
+        <item>TELEVENDAS</item>
+        <item>OUTROS</item>
+
+    </string-array>
+        //criado por jailson
+    <string-array name="direito">
+        <item>Trabalhista</item>
+        <item>Corporativo</item>
+        <item>Empresarial</item>
+        <item>Patentes</item>
+        <item>Familiar</item>
+        <item>Outros</item>
+
+
+    </string-array>
+
+    <string-array name="create_finance">
+        <item>COLETA DE DADOS</item>
+        <item>TRABALHAR COM UM CRM</item>
+        <item>GERENCIAMENTO DE PROJETOS</item>
+        <item>RECRUTAMENTO</item>
+        <item>PLANEJAMENTO ESTRATÉGICO</item>
+        <item>CONTABILIDADE</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="create_engineer">
+        <item>DESING INDUSTRIAL</item>
+        <item>CAD </item>
+        <item>MODELAGEM 3D </item>
+        <item>Outros</item>
+
+    </string-array>
+
+    //criado por jailson
+    <string-array name="arquitetura_e_design">
+        <item>DESING DE INTERIORES</item>
+        <item>PROJETISTA</item>
+        <item>AUTO CAD</item>
+        <item>BLANDER</item>
+        <item>SKETCHUP</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="itens_arquitetura_e_design">
+        <item>Animação 2D  </item>
+        <item>360-degree video</item>
+        <item>Animação3D </item>
+        <item>Design 3D </item>
+        <item>Modelagem 3D </item>
+        <item>Elaboração de Projetos</item>
+        <item>Renderização 3D </item>
+        <item>3ds Max</item>
+
+    </string-array>
+
+    <string-array name="casa_e_escritorio">
+        <item>Doméstica</item>
+        <item>Babá</item>
+        <item>Jardineiro</item>
+        <item>Porteiro</item>
+        <item>Controlador de acesso</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="itens_casa_e_escritorio">
+        <item>Limpeza doméstica</item>
+        <item>Atendimento telefônico</item>
+        <item>Limpeza escritório</item>
+        <item>Organização</item>
+        <item>Preparação de café</item>
+        <item>Lavar roupas</item>
+        <item>Conzinhar</item>
+        <item>Passar</item>
+        <item>Jardinagem</item>
+        <item>Podagem</item>
+        <item>Portaria</item>
+        <item>Monitoramento</item>
+        <item>Controlador de acesso</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="construcao">
+        <item>Carpinteiro</item>
+        <item>Ajudante geral</item>
+        <item>Pedreiro</item>
+        <item>Armador</item>
+        <item>Encanador</item>
+        <item>Eletricista</item>
+        <item>Pintor</item>
+        <item>Encarregado</item>
+        <item>Mestre</item>
+        <item>Azulegista</item>
+        <item>Gesseiro</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="itens_construcao_civil">
+        <item>Estrutura concreto</item>
+        <item>Estrutura metálica</item>
+        <item>Montagem</item>
+        <item>Pintura</item>
+        <item>Lages</item>
+        <item>Pré-moldados</item>
+        <item>Fundação</item>
+        <item>Colocação de azulejos</item>
+        <item>Acabamento em gesso</item>
+        <item>Drywall</item>
+        <item>Encanador</item>
+        <item>Eletricista</item>
+        <item>Pedreiro</item>
+        <item>Ajudante geral</item>
+        <item>Outros</item>
+
+    </string-array>
+
+    <string-array name="automoveis">
+        <item>Lavador de carro(moto)</item>
+        <item>Pintor carro(moto)</item>
+        <item>Mecânico carro(moto)</item>
+        <item>Outros</item>
+
+    </string-array>
+
+
+    <string-array name="itens_automoveis">
+        <item>Balenceamento</item>
+        <item>Motor</item>
+        <item>Câmbio</item>
+        <item>Injeção eletrôica</item>
+        <item>Pintura</item>
+        <item>Restauração</item>
+        <item>Higinização</item>
+        <item>Polimento</item>
+        <item>Outros</item>
+
+    </string-array>
+
+
+    <string-array name="gastronomia">
+        <item>Garçon</item>
+        <item>Barman</item>
+        <item>Copeiro</item>
+        <item>Auxiliar de Cozinha</item>
+        <item>Cozinheiro</item>
+        <item>Atendente</item>
+        <item>Recepcionista</item>
+        <item>Operador de caixa</item>
+        <item>sushiman</item>
+        <item>Bartender</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="itens_gastronomia">
+        <item>Atendimento ao crinte</item>
+        <item>Preparação de drinks</item>
+        <item>Preparação sucos</item>
+        <item>Preparação de pratos</item>
+        <item>Preparação de café</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="audiovisual">
+        <item>Editor de Video</item>
+        <item>Sonoplasta</item>
+        <item>Animador</item>
+        <item>Desenhista</item>
+        <item>Diretor</item>
+        <item>Roteirista</item>
+        <item>Operador de Camera</item>
+        <item>Operador de Microfone</item>
+        <item>Fotografo(a)</item>
+        <item>Pós-editor</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="itens_audiovisual">
+        <item>Edição de video</item>
+        <item>Edição de audio</item>
+        <item>Animador</item>
+        <item>Desenhista</item>
+        <item>Efeitos Especiais</item>
+        <item>Criarção de vinhetas</item>
+        <item>Criação de Spot</item>
+        <item>Operar  Microfone</item>
+        <item>Fotografia</item>
+        <item>Finalização</item>
+        <item>Produção de video</item>
+        <item>Produção de audio</item>
+        <item>Animação 2D  </item>
+        <item>360-degree video</item>
+        <item>Animação3D </item>
+        <item>Design 3D </item>
+        <item>Modelagem 3D </item>
+        <item>Elaboração de Projetos</item>
+        <item>Renderização 3D </item>
+        <item>Diagração </item>
+        <item>3ds Max</item>
+        <item>Adobe Premier</item>
+        <item>Adobe After Effects </item>
+        <item>Adobe Media Encoder</item>
+        <item>Adobe Audition </item>
+        <item>Adobe SpeedGrade</item>
+        <item>Sond Forge</item>
+        <item>Prot Tools</item>
+        <item>Fl Studio</item>
+        <item>Cinema 4D </item>
+        <item>Maya</item>
+        <item>Outros</item>
+    </string-array>
+
+
+
+
+
+
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="nav_drawer_item_explore">Explore</string>
+    <string name="nav_drawer_help_and_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="nav_drawer_about">About</string>
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+    <string name="tools_text_account_information_username">ImperatriX</string>
+    <string name="tools_text_account_information_email">marina-401@yandex.ru</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="hint_prompt">Fale um nome ou número dO item</string>
+
+
+    <string name="quila_name">Quila</string>
+    <string name="quila_tagline">I love bones and slippers</string>
+    <string name="quila_name2">Quila!</string>
+
+
+    <string-array name="writingAndcontent">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Arabic</item>
+        <item>Basque</item>
+        <item>Bengali</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dari</item>
+        <item>Dutch</item>
+        <item>English (UK)</item>
+        <item>English (US)</item>
+        <item>English Grammar</item>
+        <item>English Spelling</item>
+        <item>Estonian</item>
+        <item>Filipino </item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>French (Canadian)</item>
+        <item>German </item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Indonesian </item>
+        <item>Interpreter</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Korean</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Macedonian</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Norwegian</item>
+        <item>Poet</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Punjabi</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Serbian</item>
+        <item>Simplified Chinese (China)</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Spanish (Spain)</item>
+        <item>Swedish</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Traditional Chinese (Hong Kong)</item>
+        <item>Traditional Chinese (Taiwan)</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+        <item>Voice Artist</item>
+        <item>Welsh</item>
+        <item>Yiddish</item>
+        <item>Academic Writing</item>
+        <item>Apple iBooks Author</item>
+        <item>Article Rewriting</item>
+        <item>Article Writing</item>
+        <item>Blog</item>
+        <item>Blog Writing</item>
+        <item>Book Writing</item>
+        <item>Business Writing</item>
+        <item>Cartography &amp; Maps</item>
+        <item>Catch Phrases</item>
+        <item>Communications</item>
+        <item>Content Strategy</item>
+        <item>Content Writing</item>
+        <item>Copy Editing</item>
+        <item>Copy Typing</item>
+        <item>Copywriting</item>
+        <item>Creative Writing</item>
+        <item>eBooks</item>
+        <item>Editing</item>
+        <item>Editorial Writing</item>
+        <item>Essay Writing</item>
+        <item>Fiction</item>
+        <item>Financial Research</item>
+        <item>Forum Posting</item>
+        <item>Ghostwriting</item>
+        <item>Grant Writing</item>
+        <item>LaTeX</item>
+        <item>Medical Writing</item>
+        <item>Newsletters</item>
+        <item>Online Writing</item>
+        <item>PDF</item>
+        <item>Poetry</item>
+        <item>Powerpoint</item>
+        <item>Press Releases</item>
+        <item>Product Descriptions</item>
+        <item>Proofreading</item>
+        <item>Proposal/Bid Writing</item>
+        <item>Publishing</item>
+        <item>Report Writing</item>
+        <item>Research</item>
+        <item>Research Writing</item>
+        <item>Resumes</item>
+        <item>Reviews</item>
+        <item>Screenwriting</item>
+        <item>SEO Writing</item>
+        <item>Short Stories</item>
+        <item>Slogans</item>
+        <item>Speech Writing</item>
+        <item>Technical Writing</item>
+        <item>Translation</item>
+        <item>Travel Writing</item>
+        <item>WIKI</item>
+        <item>Wikipedia</item>
+        <item>Word Processing</item>
+    </string-array>
+
+    <string-array name="sales">
+
+        <item>Ad Planning &amp; Buying</item>
+        <item>Advertising </item>
+        <item>Affiliate Marketing</item>
+        <item>Airbnb </item>
+        <item>Brand Management</item>
+        <item>Brand Marketing</item>
+        <item>Branding</item>
+        <item>Bulk Marketing</item>
+        <item>Classifieds Posting</item>
+        <item>Content Marketing</item>
+        <item>Conversion Rate Optimisation</item>
+        <item>CRM</item>
+        <item>eBay</item>
+        <item>Email Marketing</item>
+        <item>Etsy</item>
+        <item>Facebook Marketing</item>
+        <item>Google Adsense</item>
+        <item>Google Adwords</item>
+        <item>Internet Marketing</item>
+        <item>Internet Research</item>
+        <item>Journalist</item>
+        <item>Keyword Research</item>
+        <item>Leads</item>
+        <item>Mailchimp</item>
+        <item>Mailwizz</item>
+        <item>Market Research</item>
+        <item>Marketing</item>
+        <item>Marketing Strategy</item>
+        <item>MLM</item>
+        <item>Pardot</item>
+        <item>Periscope</item>
+        <item>PPC Marketing</item>
+        <item>Sales</item>
+        <item>Sales Promotion</item>
+        <item>Search Engine Marketing</item>
+        <item>Social Media Marketing</item>
+        <item>Telemarketing</item>
+        <item>Twitter Marketing</item>
+        <item>Viral Marketing</item>
+        <item>Visual Merchandising</item>
+        <item>WooCommerce</item>
+
+    </string-array>
+
+    <string-array name="engineering">
+
+        <item>Aeronautical Engineering</item>
+        <item>Aerospace Engineering</item>
+        <item>Agronomy</item>
+        <item>Algorithm</item>
+        <item>Arduino</item>
+        <item>Astrophysics</item>
+        <item>AutoCAD</item>
+        <item>Biology</item>
+        <item>Biotechnology </item>
+        <item>Broadcast Engineering</item>
+        <item>CAD/CAM </item>
+        <item>CATIA</item>
+        <item>Chemical Engineering</item>
+        <item>Circuit Design</item>
+        <item>Civil Engineering</item>
+        <item>Clean Technology</item>
+        <item>Climate Sciences</item>
+        <item>Construction Monitoring </item>
+        <item>Cryptography</item>
+        <item>Data Mining</item>
+        <item>Data Science</item>
+        <item>Digital Design</item>
+        <item>Drones</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics </item>
+        <item>Engineering</item>
+        <item>Engineering Drawing</item>
+        <item>Finite Element Analysis</item>
+        <item>FPGA</item>
+        <item>Genetic Engineering</item>
+        <item>Geology</item>
+        <item>Geospatial</item>
+        <item>Geotechnical Engineering</item>
+        <item>GPS</item>
+        <item>Home Design</item>
+        <item>Human Sciences</item>
+        <item>Imaging</item>
+        <item>Industrial Engineering</item>
+        <item>Instrumentation</item>
+        <item>Linear Programming</item>
+        <item>Machine Learning</item>
+        <item>Manufacturing Design</item>
+        <item>Materials Engineering</item>
+        <item>Mathematics</item>
+        <item>Matlab and Mathematica</item>
+        <item>Mechanical Engineering</item>
+        <item>Mechatronics</item>
+        <item>Medical</item>
+        <item>Microbiology </item>
+        <item>Microcontroller</item>
+        <item>Microstation</item>
+        <item>Mining Engineering</item>
+        <item>Nanotechnology</item>
+        <item>Natural Language</item>
+        <item>Neural Networks</item>
+        <item>PCB Layout</item>
+        <item>Petroleum Engineering</item>
+        <item>Physics</item>
+        <item>PLC &amp; SCADA </item>
+        <item>Product Management</item>
+        <item>Project Scheduling</item>
+        <item>Quantum</item>
+        <item>Remote Sensing</item>
+        <item>Renewable Energy Design</item>
+        <item>Robotics </item>
+        <item>RTOS</item>
+        <item>Scientific Research</item>
+        <item>Solidworks</item>
+        <item>Statistical Analysis</item>
+        <item>Statistics</item>
+        <item>Structural Engineering</item>
+        <item>Surfboard Design</item>
+        <item>Telecommunications Engineering</item>
+        <item>Textile Engineering</item>
+        <item>Verilog / VHDL</item>
+        <item>Very-large-scale integration (VLSI)</item>
+        <item>Wireless</item>
+        <item>Wolfram</item>
+        <item>3D Printing</item>
+        <item>Buyer Sourcing</item>
+        <item>Logistics &amp; Shipping</item>
+        <item>Manufacturing</item>
+        <item>Product Design</item>
+        <item>Product Sourcing</item>
+        <item>Supplier Sourcing</item>
+
+    </string-array>
+
+    <string-array name="legal">
+
+        <item>Accounting</item>
+        <item>Attorney</item>
+        <item>Audit</item>
+        <item>Autotask</item>
+        <item>Business Analysis</item>
+        <item>Business Plans</item>
+        <item>Compliance</item>
+        <item>Contracts </item>
+        <item>Crystal Reports</item>
+        <item>Econometrics</item>
+        <item>Economics</item>
+        <item>Employment Law</item>
+        <item>Entrepreneurship</item>
+        <item>ERP </item>
+        <item>Event Planning</item>
+        <item>Finance</item>
+        <item>Financial Analysis</item>
+        <item>Fundraising </item>
+        <item>Human Resources</item>
+        <item>Intuit QuickBooks</item>
+        <item>Inventory Management </item>
+        <item>ISO9001</item>
+        <item>Legal</item>
+        <item>Legal Research</item>
+        <item>Legal Writing</item>
+        <item>Linnworks Order Management</item>
+        <item>Management</item>
+        <item>MYOB</item>
+        <item>Nintex Forms</item>
+        <item>Nintex Workflow</item>
+        <item>Organizational Change Management</item>
+        <item>Patents</item>
+        <item>Payroll</item>
+        <item>PeopleSoft</item>
+        <item>Personal Development</item>
+        <item>Project Management</item>
+        <item>Property Development</item>
+        <item>Property Law</item>
+        <item>Property Management</item>
+        <item>Public Relations</item>
+        <item>Recruitment</item>
+        <item>Risk Management</item>
+        <item>Salesforce.com</item>
+        <item>SAS</item>
+        <item>Startups</item>
+        <item>Tax</item>
+        <item>Tax Law</item>
+        <item>Unit4 Business World </item>
+        <item>Visa / Immigration</item>
+        <item>Xero</item>
+
+    </string-array>
+
+
+    //criado por jailson copia de legal
+
+    <string-array name="c_financia">
+
+        <item>Accounting</item>
+        <item>Attorney</item>
+        <item>Audit</item>
+        <item>Autotask</item>
+        <item>Business Analysis</item>
+        <item>Business Plans</item>
+        <item>Compliance</item>
+        <item>Contracts </item>
+        <item>Crystal Reports</item>
+        <item>Econometrics</item>
+        <item>Economics</item>
+        <item>Employment Law</item>
+        <item>Entrepreneurship</item>
+        <item>ERP </item>
+        <item>Event Planning</item>
+        <item>Finance</item>
+        <item>Financial Analysis</item>
+        <item>Fundraising </item>
+        <item>Human Resources</item>
+        <item>Intuit QuickBooks</item>
+        <item>Inventory Management </item>
+        <item>ISO9001</item>
+        <item>Legal</item>
+        <item>Legal Research</item>
+        <item>Legal Writing</item>
+        <item>Linnworks Order Management</item>
+        <item>Management</item>
+        <item>MYOB</item>
+        <item>Nintex Forms</item>
+        <item>Nintex Workflow</item>
+        <item>Organizational Change Management</item>
+        <item>Patents</item>
+        <item>Payroll</item>
+        <item>PeopleSoft</item>
+        <item>Personal Development</item>
+        <item>Project Management</item>
+        <item>Property Development</item>
+        <item>Property Law</item>
+        <item>Property Management</item>
+        <item>Public Relations</item>
+        <item>Recruitment</item>
+        <item>Risk Management</item>
+        <item>Salesforce.com</item>
+        <item>SAS</item>
+        <item>Startups</item>
+        <item>Tax</item>
+        <item>Tax Law</item>
+        <item>Unit4 Business World </item>
+        <item>Visa / Immigration</item>
+        <item>Xero</item>
+
+    </string-array>
+
+    <string-array name="design">
+        <item>2D Animation </item>
+        <item>360-degree video </item>
+        <item>3D Animation</item>
+        <item>3D Design</item>
+        <item>3D Model Maker</item>
+        <item>3D Modelling</item>
+        <item>3D Rendering</item>
+        <item>3ds Max</item>
+        <item>ActionScript</item>
+        <item>Adobe Dreamweaver</item>
+        <item>Adobe Fireworks</item>
+        <item>Adobe Flash</item>
+        <item>Adobe InDesign</item>
+        <item>Adobe Lightroom</item>
+        <item>Adobe LiveCycle Designer</item>
+        <item>Advertisement Design</item>
+        <item>After Effects</item>
+        <item>Animation</item>
+        <item>App Designer</item>
+        <item>Apple Compressor</item>
+        <item>Apple Logic Pro</item>
+        <item>Apple Motion</item>
+        <item>Arts &amp; Crafts</item>
+        <item>Audio Production</item>
+        <item>Audio Services</item>
+        <item>Autodesk Inventor</item>
+        <item>Autodesk Revit</item>
+        <item>Autodesk Sketchbook Pro</item>
+        <item>Axure</item>
+        <item>Banner Design</item>
+        <item>Blog Design </item>
+        <item>Book Artist</item>
+        <item>Bootstrap</item>
+        <item>Brochure Design</item>
+        <item>Building Architecture</item>
+        <item>Business Card Design</item>
+        <item>Business Cards</item>
+        <item>Capture NX2</item>
+        <item>Caricature &amp; Cartoons</item>
+        <item>CGI</item>
+        <item>Cinema 4D</item>
+        <item>Commercials</item>
+        <item>Concept Art</item>
+        <item>Concept Design</item>
+        <item>Corel Painter</item>
+        <item>Corporate Identity</item>
+        <item>Covers &amp; Packaging</item>
+        <item>Creative Design</item>
+        <item>CSS</item>
+        <item>Design</item>
+        <item>eLearning Designer</item>
+        <item>Fashion Design</item>
+        <item>Fashion Modeling</item>
+        <item>Filmmaking</item>
+        <item>Final Cut Pro</item>
+        <item>Finale / Sibelius</item>
+        <item>Flash 3D</item>
+        <item>Flash Animation</item>
+        <item>Flex</item>
+        <item>Flow Charts</item>
+        <item>Flyer Design</item>
+        <item>Format &amp; Layout</item>
+        <item>Furniture Design</item>
+        <item>GarageBand</item>
+        <item>Google SketchUp</item>
+        <item>Graphic Design</item>
+        <item>Icon Design</item>
+        <item>Illustration</item>
+        <item>Illustrator</item>
+        <item>Image Processing</item>
+        <item>iMovie</item>
+        <item>Industrial Design</item>
+        <item>Infographics</item>
+        <item>Instagram Marketing</item>
+        <item>Interior Design</item>
+        <item>Invitation Design</item>
+        <item>JDF</item>
+        <item>Kinetic Typography</item>
+        <item>Label Design</item>
+        <item>Landing Pages</item>
+        <item>Logo Design</item>
+        <item>Makerbot</item>
+        <item>Maya</item>
+        <item>Motion Graphics</item>
+        <item>Music</item>
+        <item>Package Design</item>
+        <item>Photo Editing</item>
+        <item>Photo Restoration</item>
+        <item>Photo Retouching</item>
+        <item>Photography</item>
+        <item>Photoshop</item>
+        <item>Photoshop Design</item>
+        <item>Post-Production</item>
+        <item>Poster Design</item>
+        <item>Pre-production</item>
+        <item>Presentations</item>
+        <item>Prezi</item>
+        <item>Print</item>
+        <item>PSD to HTML</item>
+        <item>PSD2CMS</item>
+        <item>QuarkXPress</item>
+        <item>RWD</item>
+        <item>Shopify Templates</item>
+        <item>Sign Design</item>
+        <item>Sound Design</item>
+        <item>Stationery Design</item>
+        <item>Sticker Design</item>
+        <item>Storyboard</item>
+        <item>T-Shirts</item>
+        <item>Tattoo Design</item>
+        <item>Tekla Structures</item>
+        <item>Templates</item>
+        <item>Typography</item>
+        <item>User Experience Design</item>
+        <item>User Interface Design</item>
+        <item>Vectorization</item>
+        <item>Vehicle Signage</item>
+        <item>Video Broadcasting</item>
+        <item>Video Editing</item>
+        <item>Video Production</item>
+        <item>Video Services</item>
+        <item>Videography</item>
+        <item>VideoScribe</item>
+        <item>Visual Arts</item>
+        <item>Voice Talent</item>
+        <item>Website Design</item>
+        <item>Wireframes</item>
+        <item>Word</item>
+        <item>Yahoo! Store Design</item>
+        <item>Zbrush</item>
+
+    </string-array>
+
+    <string-array name="admin">
+
+        <item>Article Submission</item>
+        <item>Bookkeeping</item>
+        <item>BPO</item>
+        <item>Call Center</item>
+        <item>Customer Service</item>
+        <item>Customer Support</item>
+        <item>Data Analytics</item>
+        <item>Data Cleansing</item>
+        <item>Data Entry</item>
+        <item>Data Extraction</item>
+        <item>Data Processing</item>
+        <item>Data Scraping</item>
+        <item>Desktop Support</item>
+        <item>Email Handling</item>
+        <item>ePub</item>
+        <item>Excel</item>
+        <item>Excel Macros</item>
+        <item>Excel VBA</item>
+        <item>General Office</item>
+        <item>Helpdesk</item>
+        <item>Investment Research</item>
+        <item>Microsoft Office</item>
+        <item>Microsoft Outlook</item>
+        <item>Order Processing</item>
+        <item>Phone Support</item>
+        <item>Procurement</item>
+        <item>Qualitative Research</item>
+        <item>Technical Support</item>
+        <item>Telephone Handling</item>
+        <item>Time Management</item>
+        <item>Transcription</item>
+        <item>Video Upload</item>
+        <item>Virtual Assistant</item>
+        <item>Web Search</item>
+
+    </string-array>
+
+    <string-array name="it_skills_array">
+
+        <item>Amazon Fire</item>
+        <item>Amazon Kindle</item>
+        <item>Android</item>
+        <item>Appcelerator Titanium</item>
+        <item>Apple Watch</item>
+        <item>Blackberry</item>
+        <item>Geolocation</item>
+        <item>iPad</item>
+        <item>iPhone</item>
+        <item>J2ME</item>
+        <item>Kotlin</item>
+        <item>Metro</item>
+        <item>Mobile App Development</item>
+        <item>Nokia</item>
+        <item>Palm</item>
+        <item>Samsung</item>
+        <item>Symbian</item>
+        <item>Virtualization</item>
+        <item>WebOS</item>
+        <item>Windows CE</item>
+        <item>Windows Mobile</item>
+        <item>Windows Phone</item>
+
+        <item>.NET </item>
+        <item>4D </item>
+        <item>Active Directory </item>
+        <item>ADO.NET </item>
+        <item>AdoBe Air </item>
+        <item>AdoBe Captivate </item>
+        <item>AdoBe Freehand </item>
+        <item>AdoBe Illustrator </item>
+        <item>AdoBe Muse </item>
+        <item>AdoBe Premiere Pro </item>
+        <item>Agile Development </item>
+        <item>AJAX </item>
+        <item>AliBaBa </item>
+        <item>Amazon WeB Services </item>
+        <item>AMQP </item>
+        <item>Analytics </item>
+        <item>Android Wear SDK </item>
+        <item>Angular.js </item>
+        <item>Apache </item>
+        <item>Apache Ant </item>
+        <item>Apache Maven </item>
+        <item>Apache Solr </item>
+        <item>API </item>
+        <item>App Developer </item>
+        <item>Apple Safari </item>
+        <item>Applescript </item>
+        <item>Argus Monitoring Software </item>
+        <item>Artificial Intelligence </item>
+        <item>AS400 &amp; iSeries </item>
+        <item>Asana </item>
+        <item>ASP </item>
+        <item>ASP.NET </item>
+        <item>AssemBly </item>
+        <item>Asterisk PBX </item>
+        <item>Augmented Reality </item>
+        <item>AutoHotkey </item>
+        <item>Azure </item>
+        <item>BackBone.js </item>
+        <item>Balsamiq </item>
+        <item>Bash Scripting </item>
+        <item>Big Data </item>
+        <item>BigCommerce </item>
+        <item>Binary Analysis </item>
+        <item>Bitcoin </item>
+        <item>Biztalk </item>
+        <item>Blockchain </item>
+        <item>Blog Install </item>
+        <item>Bluetooth Low Energy </item>
+        <item>BMC Remedy </item>
+        <item>Boonex Dolphin </item>
+        <item>Bower </item>
+        <item>BSD </item>
+        <item>Business Catalyst </item>
+        <item>Business Intelligence </item>
+        <item>C Programming </item>
+        <item>C# Programming </item>
+        <item>C++ Programming </item>
+        <item>CakePHP </item>
+        <item>Call Control XML </item>
+        <item>Camtasia </item>
+        <item>CasperJS </item>
+        <item>Cassandra </item>
+        <item>Chef Configuration Management </item>
+        <item>Chordiant </item>
+        <item>Chrome OS </item>
+        <item>Cinematography </item>
+        <item>Cisco </item>
+        <item>CLIPS </item>
+        <item>Cloud Computing </item>
+        <item>CMS </item>
+        <item>COBOL </item>
+        <item>Cocoa </item>
+        <item>Codeigniter </item>
+        <item>Coding </item>
+        <item>Cold Fusion </item>
+        <item>Computer Graphics </item>
+        <item>Computer Science </item>)
+        <item>Computer Security </item>
+        <item>Copyright </item>
+        <item>Corel Draw </item>
+        <item>CRE Loaded </item>
+        <item>CS-Cart </item>
+        <item>CSS3 </item>
+        <item>CuBeCart </item>
+        <item>CUDA </item>
+        <item>cURL </item>
+        <item>CV LiBrary </item>
+        <item>Dart </item>
+        <item>Data Warehousing </item>
+        <item>DataBase Administration </item>
+        <item>DataBase Development </item>
+        <item>DataBase Programming </item>
+        <item>DataLife Engine </item>
+        <item>DDS </item>
+        <item>DeBian </item>
+        <item>DeBugging </item>
+        <item>Delphi </item>
+        <item>Digital Marketing </item>
+        <item>Django </item>
+        <item>DNS </item>
+        <item>Docker </item>
+        <item>DOS </item>
+        <item>DotNetNuke </item>
+        <item>Drawing </item>
+        <item>Drupal </item>
+        <item>Dthreejs </item>
+        <item>Dynamics </item>
+        <item>Eclipse </item>
+        <item>eCommerce </item>
+        <item>edX </item>
+        <item>Elasticsearch </item>
+        <item>eLearning </item>
+        <item>Electronic Forms </item>
+        <item>Email Developer </item>
+        <item>EmBedded Software </item>
+        <item>EmBer.js </item>
+        <item>Erlang </item>
+        <item>Ethereum </item>
+        <item>Express JS </item>
+        <item>Expression Engine </item>
+        <item>Face Recognition </item>
+        <item>FaceBook API </item>
+        <item>FileMaker </item>
+        <item>Firefox </item>
+        <item>Fortran </item>
+        <item>Forum Software </item>
+        <item>FreelancerAPI </item>
+        <item>FreeSwitch </item>
+        <item>Game Consoles </item>
+        <item>Game Design </item>
+        <item>Game Development </item>
+        <item>GameSalad </item>
+        <item>Gamification </item>
+        <item>Geographical Information System </item>
+        <item>GIMP </item>
+        <item>Git </item>
+        <item>Golang </item>
+        <item>Google Analytics </item>
+        <item>Google App Engine </item>
+        <item>Google CardBoard </item>
+        <item>Google Chrome </item>)
+        <item>Google Cloud Storage </item>
+        <item>Google Earth </item>
+        <item>Google Maps API </item>
+        <item>Google Plus </item>
+        <item>Google WeB Toolkit </item>
+        <item>Google WeBmaster Tools </item>
+        <item>Google WeBsite Optimizer </item>
+        <item>GoPro </item>
+        <item>GPGPU </item>
+        <item>Grails </item>
+        <item>Graphics Programming </item>
+        <item>Grease Monkey </item>
+        <item>Growth Hacking </item>
+        <item>Grunt </item>
+        <item>Hadoop </item>
+        <item>Haskell </item>
+        <item>HBase </item>
+        <item>Heroku </item>
+        <item>Hive </item>
+        <item>HomeKit </item>
+        <item>HP Openview </item>
+        <item>HTC Vive </item>
+        <item>HTML </item>
+        <item>HTML5 </item>
+        <item>iBeacon </item>
+        <item>IBM BPM </item>
+        <item>IBM Tivoli </item>
+        <item>IBM WeBsphere Transformation Tool </item>
+        <item>IIS </item>
+        <item>Instagram </item>
+        <item>Instagram API </item>
+        <item>Internet Security </item>
+        <item>Interspire </item>
+        <item>Ionic Framework </item>
+        <item>iOS Development </item>
+        <item>ITIL </item>
+        <item>J2EE </item>
+        <item>JaBBer </item>
+        <item>Java </item>
+        <item>JavaFX </item>
+        <item>Javascript </item>
+        <item>JD Edwards CNC </item>
+        <item>Joomla </item>
+        <item>jQuery / Prototype </item>
+        <item>JSON </item>
+        <item>JSP </item>
+        <item>JUnit </item>
+        <item>Kinect </item>
+        <item>Knockout.js </item>
+        <item>LaBVIEW </item>
+        <item>Laravel </item>
+        <item>Leap Motion SDK </item>
+        <item>Learning Management Systems </item>
+        <item>LESS/Sass/SCSS </item>
+        <item>Link Building </item>
+        <item>Linkedin </item>
+        <item>LINQ </item>
+        <item>Linux </item>
+        <item>Lisp </item>
+        <item>LiveCode </item>
+        <item>Lotus Notes </item>
+        <item>Lua </item>
+        <item>Mac OS </item>
+        <item>Magento </item>
+        <item>Magic Leap </item>
+        <item>Map Reduce </item>
+        <item>MariaDB </item>
+        <item>Metatrader </item>
+        <item>MeteorJS </item>
+        <item>Microsoft </item>
+        <item>Microsoft Access </item>
+        <item>Microsoft Exchange </item>
+        <item>Microsoft Expression </item>
+        <item>Microsoft Hololens </item>
+        <item>Microsoft SQL Server </item>
+        <item>Microsoft Visio </item>
+        <item>MinitaB </item>
+        <item>MMORPG </item>
+        <item>MoBile App Testing </item>
+        <item>MODx </item>
+        <item>MonetDB </item>
+        <item>Moodle </item>
+        <item>Moz </item>
+        <item>MQTT </item>
+        <item>MVC </item>
+        <item>MySpace </item>
+        <item>MySQL </item>
+        <item>NetBeans </item>
+        <item>Network Administration </item>
+        <item>Nginx </item>
+        <item>Ning </item>
+        <item>node.js </item>
+        <item>NoSQL Couch &amp; Mongo </item>
+        <item>OAuth </item>
+        <item>OBject Oriented Programming </item>
+        <item>OBjective C </item>
+        <item>OCR </item>
+        <item>Oculus MoBile SDK </item>
+        <item>Oculus Rift </item>
+        <item>Odoo </item>
+        <item>Open Cart </item>
+        <item>Open Journal Systems </item>
+        <item>OpenBravo </item>
+        <item>OpenCL </item>
+        <item>OpenCV </item>
+        <item>OpenGL </item>
+        <item>OpenSceneGraph </item>
+        <item>OpenSSL </item>
+        <item>OpenStack </item>
+        <item>OpenVMS </item>
+        <item>OpenVPN </item>
+        <item>OpenVZ </item>
+        <item>Oracle </item>
+        <item>OSCommerce </item>
+        <item>Papiamento </item>
+        <item>Parallax Scrolling </item>
+        <item>Parallel Processing </item>
+        <item>Parallels Automation </item>
+        <item>Parallels Desktop </item>
+        <item>Pascal </item>
+        <item>Pattern Matching </item>
+        <item>Payment Gateway Integration </item>
+        <item>PayPal API </item>
+        <item>Paytrace </item>
+        <item>PEGA PRPC </item>
+        <item>PencilBlue CMS </item>
+        <item>Penetration Testing </item>
+        <item>Pentaho </item>
+        <item>Perl </item>
+        <item>PhoneGap </item>
+        <item>Photoshop Coding </item>
+        <item>PHP </item>
+        <item>phpFox </item>
+        <item>phpMyAdmin </item>
+        <item>PhpNuke </item>
+        <item>PICK Multivalue DB </item>
+        <item>Pinterest </item>
+        <item>Plesk </item>
+        <item>Plugin </item>
+        <item>PostgreSQL </item>
+        <item>Powershell </item>
+        <item>Prestashop </item>
+        <item>Programming </item>
+        <item>Prolog </item>
+        <item>Protoshare </item>
+        <item>Puppet </item>
+        <item>Python </item>
+        <item>QlikView </item>
+        <item>Qt </item>
+        <item>Qualtrics Survey Platform </item>
+        <item>QuickBase </item>
+        <item>R Programming Language </item>
+        <item>RapidWeaver </item>
+        <item>RaspBerry Pi </item>
+        <item>Ray-tracing </item>
+        <item>React.js </item>
+        <item>REALBasic </item>
+        <item>Red Hat </item>
+        <item>Redis </item>
+        <item>Redshift </item>
+        <item>Regular Expressions </item>
+        <item>RESTful </item>
+        <item>Rocket Engine </item>
+        <item>RuBy </item>
+        <item>RuBy on Rails </item>
+        <item>Salesforce App Development </item>
+        <item>Samsung Accessory SDK </item>
+        <item>SAP </item>
+        <item>Scala </item>
+        <item>Scheme </item>
+        <item>Scrapy </item>
+        <item>Script Install </item>
+        <item>Scripting </item>
+        <item>Scrum </item>
+        <item>Scrum Development </item>
+        <item>Sencha / YahooUI </item>
+        <item>SEO </item>
+        <item>SEO Auditing </item>
+        <item>Sharepoint </item>
+        <item>Shell Script </item>
+        <item>Shopify </item>
+        <item>Shopping Carts </item>
+        <item>SieBel </item>
+        <item>Silverlight </item>
+        <item>Sketching </item>
+        <item>Smarty PHP </item>
+        <item>Snapchat </item>
+        <item>Social Engine </item>
+        <item>Social Media Management </item>
+        <item>Social Networking </item>
+        <item>Socket IO </item>
+        <item>Software Architecture </item>
+        <item>Software Development </item>
+        <item>Software Testing </item>
+        <item>Solaris </item>
+        <item>Spark </item>
+        <item>Sphinx </item>
+        <item>Splunk </item>
+        <item>SPSS Statistics </item>
+        <item>SQL </item>
+        <item>SQLite </item>
+        <item>Squarespace </item>
+        <item>Squid Cache </item>
+        <item>Steam API </item>
+        <item>Storage Area Networks </item>
+        <item>Stripe </item>
+        <item>SuBversion </item>
+        <item>SugarCRM </item>
+        <item>Swift </item>
+        <item>Swing </item>
+        <item>Symfony PHP </item>
+        <item>System Admin </item>
+        <item>TaBleau </item>
+        <item>Tally Definition Language </item>
+        <item>TaoBao API </item>
+        <item>TestStand </item>
+        <item>TiBco Spotfire </item>
+        <item>Titanium </item>
+        <item>Tizen SDK for WearaBles </item>
+        <item>TumBlr </item>
+        <item>Twitter </item>
+        <item>Twitter API </item>
+        <item>Typescript </item>
+        <item>Typing </item>
+        <item>TYPO3 </item>
+        <item>UBuntu </item>
+        <item>UmBraco </item>
+        <item>UML Design </item>
+        <item>Unity 3D </item>
+        <item>UNIX </item>
+        <item>UsaBility Testing </item>
+        <item>User Interface / IA </item>
+        <item>Varnish Cache </item>
+        <item>VB.NET </item>
+        <item>vBulletin </item>
+        <item>Veeam </item>
+        <item>VertexFX </item>
+        <item>Virtual Machines </item>
+        <item>Virtual Worlds </item>
+        <item>Virtuemart </item>
+        <item>Virtuozzo </item>
+        <item>Visual Basic </item>
+        <item>Visual Basic for Apps </item>
+        <item>Visual Foxpro </item>
+        <item>Visualization </item>
+        <item>VMware </item>
+        <item>VoiceXML </item>
+        <item>VoIP </item>
+        <item>Volusion </item>
+        <item>VPS </item>
+        <item>vTiger </item>
+        <item>Vuforia </item>
+        <item>WatchKit </item>
+        <item>WeB Crawling </item>
+        <item>WeB Development </item>
+        <item>WeB Hosting </item>
+        <item>WeB Scraping </item>
+        <item>WeB Security </item>
+        <item>WeB Services </item>
+        <item>weBMethods </item>
+        <item>WeBsite Analytics </item>
+        <item>WeBsite Management </item>
+        <item>WeBsite Testing </item>
+        <item>WeeBly </item>
+        <item>WHMCS </item>
+        <item>Windows 8 </item>
+        <item>Windows API </item>
+        <item>Windows Desktop </item>
+        <item>Windows Server </item>
+        <item>Wix </item>
+        <item>WordPress</item>
+        <item>WPF </item>
+        <item>Wufoo </item>
+        <item>x86/x64 AssemBler </item>
+        <item>Xamarin </item>
+        <item>XAML </item>
+        <item>XHTML </item>
+        <item>XML </item>
+        <item>XMPP </item>
+        <item>Xojo </item>
+        <item>Xoops </item>
+        <item>XPages </item>
+        <item>XQuery </item>
+        <item>XSLT </item>
+        <item>Yarn </item>
+        <item>Yii </item>
+        <item>YouTuBe </item>
+        <item>Zen Cart </item>
+        <item>Zend </item>
+        <item>Zendesk </item>
+        <item>Zoho </item>
+    </string-array>
+
+    <string name="standard_app_bar_menu_title">Standard app bar</string>
+    <string name="tabs_menu_title">Tabs</string>
+    <string name="flexible_space_with_image_menu_title">Flexible space with image</string>
+    <string name="flexible_space_menu_title">Flexible space app bar</string>
+    <string name="overlapping_content_menu_title">Overlapping Content</string>
+    <string name="navigation_drawer_open" translatable="false" />
+    <string name="navigation_drawer_close" translatable="false" />
+    <string name="sample_email">sample.user@email.com</string>
+    <string name="not_implemented_yet">Not implemented yet</string>
+    <string name="contact_desc">contact photo</string>
+    <string name="desc_list_item_left_icon">desc_list_item_icon</string>
+    <string name="image_desc">image_desc</string>
+    <string name="some_folder">Some folder</string>
+    <string name="sample_name">User Name</string>
+    <string name="pop_title">Pop</string>
+    <string name="indie_title">Indie</string>
+    <string name="rock_title">Rock</string>
+    <string name="r8b_title"><![CDATA[R&B]]></string>
+    <string name="not_title_set">No title set</string>
+    <string name="floating_action_button">Floating action button</string>
+</resources>

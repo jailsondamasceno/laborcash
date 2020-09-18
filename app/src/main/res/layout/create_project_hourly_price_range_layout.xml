@@ -1,0 +1,93 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text = "EXPERIÊNCIA DESEJADA"/>
+
+    <Spinner
+        android:id="@+id/priceRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:entries="@array/hourly_price_range"
+        android:layout_below="@id/text">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+            android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/priceRange"
+        android:text = "Quanto tempo estima que levará esta projetos?"/>
+
+    <Spinner
+        android:id="@+id/dateRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:entries="@array/duration_range"
+        android:layout_below="@id/text2">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:inputType="number"
+        android:layout_below="@id/dateRange"
+        android:hint="Horas exigidas por semana"/>
+
+    <TextView
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_500"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="20dp"
+        android:layout_below="@+id/editHour"
+        android:text="Próximo"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
+    </ScrollView>

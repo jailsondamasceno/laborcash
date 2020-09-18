@@ -1,0 +1,535 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/nested_scroll_view"
+    android:background="#eeeeee"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toplayout"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/projBudget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="ORÇAMENTO"/>
+
+                    <TextView
+                        android:id="@+id/projPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="@color/blue_500"
+                        android:layout_below="@+id/projBudget"
+                        android:layout_alignLeft="@+id/projBudget"
+                        android:layout_marginTop="10dp"
+                        android:text="500-1000 USD"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:minWidth="3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/blue_500"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/projBids"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="OFERTAS"/>
+
+                    <TextView
+                        android:id="@+id/projBidsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:textColor="@color/blue_500"
+                        android:layout_below="@+id/projBids"
+                        android:layout_alignLeft="@+id/projBids"
+                        android:layout_marginTop="10dp"
+                        android:text=""/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/scrollingContent"
+            android:layout_below="@+id/toplayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_Habilid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/skillArea"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="4dp">
+
+
+                <View
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="@dimen/nav_drawer_vertical_spacing_listing_divider_bottom"
+                    android:background="@color/golden_stars"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skillNameText"
+                        android:textColor="@color/blue_500"
+                        android:textSize="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="30dp"
+                        android:text="HABILIDADES"/>
+
+                    <luck.materialdesign.tabsnavigator.StaggeredTextGridView
+                        android:id="@+id/gridNoted"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/skillNameText"
+                        android:layout_marginRight="25dp"
+                        android:verticalSpacing="15dp"
+                        android:numColumns="auto_fit"/>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_Sobre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/card_view_Habilid"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="4dp">
+
+                <View
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="@dimen/nav_drawer_vertical_spacing_listing_divider_bottom"
+                    android:background="@color/golden_stars"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/detailNameText"
+                        android:textColor="@color/blue_500"
+                        android:textSize="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="30dp"
+                        android:text="DETALLES"/>
+
+                    <!--<luck.materialdesign.tabsnavigator.utils.ExpandableTextView-->
+                        <!--android:id="@+id/detailText"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_below="@+id/detailNameText"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:layout_marginRight="5dp"-->
+                        <!--android:background="#ffffff"-->
+                        <!--app:DrawableAndTextGravity="center"-->
+                        <!--app:maxCollapsedLines="3">-->
+
+                    <!--</luck.materialdesign.tabsnavigator.utils.ExpandableTextView>-->
+
+                    <com.ms.square.android.expandabletextview.ExpandableTextView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/detailText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/detailNameText"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        expandableTextView:maxCollapsedLines="4"
+                        expandableTextView:animDuration="200">
+                        <TextView
+                            android:id="@id/expandable_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="14sp"
+                            android:textColor="#71c3e7" />
+                        <ImageButton
+                            android:id="@id/expand_collapse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp"
+                            android:layout_gravity="right|bottom"
+                            android:background="@android:color/transparent"/>
+                    </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_public"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/card_view_Sobre"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="4dp">
+
+                <View
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="@dimen/nav_drawer_vertical_spacing_listing_divider_bottom"
+                    android:background="@color/golden_stars"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/publicNameText"
+                        android:textColor="@color/blue_500"
+                        android:textSize="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="PUBLICOU"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/publicNameText"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/authorIcon"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:elevation="3dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/blue_500"
+                            android:layout_toRightOf="@+id/authorIcon"
+                            android:layout_alignTop="@+id/authorIcon"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/nameAuthor"/>
+
+                        <luck.materialdesign.tabsnavigator.customViews.RatingBar
+                            android:id="@+id/rating_bar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_below="@+id/nameAuthor"
+                            android:layout_toRightOf="@+id/authorIcon"
+                            app:minAllowedStars="0"
+                            app:numStars="5"
+                            app:rating="5"
+                            app:starMargin="2dp"
+                            app:starSize="1dp"
+                            app:stepSize=".1"
+                            />
+
+                        <TextView
+                            android:id="@+id/authorCountry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_below="@+id/rating_bar"
+                            android:layout_toRightOf="@+id/authorIcon"
+                            />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_awarded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/card_public"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="4dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/relativeAward"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/statusText"
+                        android:textColor="@color/blue_500"
+                        android:textSize="18dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text=""/>
+
+                    <TextView
+                        android:id="@+id/btnCancel"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/ColorPrimary"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Cancelar"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/statusText"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/freeIcon"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:elevation="3dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:textColor="@color/blue_500"
+                            android:layout_toRightOf="@+id/freeIcon"
+                            android:layout_alignTop="@+id/freeIcon"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/nameFree"/>
+
+                        <luck.materialdesign.tabsnavigator.customViews.RatingBar
+                            android:id="@+id/rating_bar_free"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_below="@+id/nameFree"
+                            android:layout_toRightOf="@+id/freeIcon"
+                            app:minAllowedStars="0"
+                            app:numStars="5"
+                            app:rating="5"
+                            app:starMargin="2dp"
+                            app:starSize="1dp"
+                            app:stepSize=".1"
+                            />
+
+                        <TextView
+                            android:id="@+id/freeCountry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_below="@+id/rating_bar_free"
+                            android:layout_toRightOf="@+id/freeIcon"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/freeCountry"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/btnAccept"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1"
+                                android:background="@color/ColorPrimary"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="Aceitar"
+                                android:textColor="#ffffff"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/btnDecline"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1"
+                                android:background="@color/ColorPrimary"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="Rejeitar"
+                                android:textColor="#ffffff"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/scrollingContent"
+       android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="ENVIAR PROPOSTA"
+        android:textColor="#ffffff"
+        android:background="#ff7518"/>
+
+
+        <TextView
+            android:id="@+id/btnFinish"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnEnviar"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="ACABAR"
+            android:textColor="#ffffff"
+            android:background="#ff7518"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
